@@ -25,8 +25,8 @@ typedef struct bob_info {
 	bob_config config;
 } bob_info;
 
-#define DTB_LOAD_ADDR	0x42000000
-#define LINUX_LOAD_ADDR	0x40020000
+#define DTB_LOAD_ADDR	0x4A000000
+#define LINUX_LOAD_ADDR	0x44000000
 
 #define IRT001 0x31
 #define IRS002 0x40
